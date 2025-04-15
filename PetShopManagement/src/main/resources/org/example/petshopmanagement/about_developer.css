@@ -1,0 +1,41 @@
+/* CSS File for About Developer Page */
+
+/* Styling for the entire about box */
+.about-box {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 20;
+    -fx-border-color: #d1d1d1;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/* Heading style */
+.heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+.infos {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555555;
+}
+
+/* Info text style */
+.info-text {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555555;
+}
+
+/* Close button style */
+.close-button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+}
+
+.close-button:hover {
+    -fx-background-color: #005a9e;
+}
